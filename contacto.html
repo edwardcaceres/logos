@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noticias de Paraguay · Contacto y privacidad</title>
+<meta name="description" content="Información de contacto, responsable y política de privacidad de la app Noticias de Paraguay para Android.">
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --text: #1d1d1f; --muted: #5a5a60;
+    --accent: #2f3f9f; --line: #e3e3e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #141416; --card: #1d1d20; --text: #ececee; --muted: #a2a2aa;
+            --accent: #8f9cf0; --line: #2e2e33; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { margin-bottom: 24px; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+          padding: 16px 20px; margin: 16px 0; }
+  .card dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; }
+  .card dt { color: var(--muted); }
+  .card dd { margin: 0; overflow-wrap: anywhere; }
+  a { color: var(--accent); }
+  ul { padding-left: 20px; }
+  nav a { margin-right: 16px; }
+  @media (max-width: 480px) { .card dl { grid-template-columns: 1fr; gap: 2px; } .card dd { margin-bottom: 8px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Noticias de Paraguay</h1>
+    <p class="muted">App para Android · <code>com.edward.caceres.lectornoticias</code></p>
+    <nav><a href="#contacto">Contacto</a><a href="#privacidad">Política de privacidad</a></nav>
+  </header>
+
+  <section id="contacto">
+    <h2>Contacto y responsable</h2>
+    <p>Noticias de Paraguay es una app independiente que reúne en un solo lugar noticias, radios y canales de televisión de Paraguay. No pertenece a ningún medio de comunicación ni está afiliada a ellos.</p>
+    <div class="card">
+      <dl>
+        <dt>Responsable</dt><dd>Edward Cáceres (desarrollador independiente)</dd>
+        <dt>Correo</dt><dd><a href="mailto:caceresedward@gmail.com">caceresedward@gmail.com</a></dd>
+        <dt>Google Play</dt><dd><a href="https://play.google.com/store/apps/details?id=com.edward.caceres.lectornoticias">Ver la app en Google Play</a></dd>
+      </dl>
+    </div>
+
+    <h3>Origen del contenido</h3>
+    <p>La app no produce noticias propias. Muestra los titulares que cada medio publica en sus canales RSS, siempre con el nombre del medio o del autor y la fecha de publicación, y enlaza al artículo original en el sitio del medio. Las radios y la televisión se reproducen desde las transmisiones públicas de cada emisora o se abren en su sitio web o canal de YouTube.</p>
+    <p>Si representas a un medio y quieres corregir datos, pedir que se agregue o se retire tu medio, escríbenos al correo de arriba.</p>
+  </section>
+
+  <section id="privacidad">
+    <h2>Política de privacidad</h2>
+    <p class="muted">Última actualización: 23 de octubre de 2026</p>
+
+    <p>Esta política explica qué datos usa la app Noticias de Paraguay, para qué los usa y con quién se comparten. La app no pide registrarse, no solicita tu nombre, correo ni teléfono, y no accede a tu ubicación, contactos, fotos ni micrófono.</p>
+
+    <h3>Datos que se recopilan</h3>
+    <ul>
+      <li><strong>Identificador de instalación:</strong> un código aleatorio que la app genera la primera vez que se abre. No está ligado a tu identidad ni a tu cuenta de Google. Se borra al desinstalar la app.</li>
+      <li><strong>Uso de la app:</strong> fecha y hora de entrada y salida, versión de la app, último medio escuchado y tema visual elegido. Se guardan asociados al identificador de instalación en Firebase Realtime Database y sirven para saber qué medios funcionan y se usan, y para mejorar la app.</li>
+      <li><strong>Estadísticas anónimas:</strong> Firebase Analytics registra eventos de uso, como pantallas abiertas, junto con datos técnicos del dispositivo (modelo, versión de Android, idioma y país aproximado).</li>
+      <li><strong>Notificaciones:</strong> Firebase Cloud Messaging asigna un token al dispositivo para poder enviar avisos de novedades.</li>
+      <li><strong>Publicidad:</strong> Google AdMob muestra un banner en la pantalla principal. Para hacerlo usa el ID de publicidad de Android, datos técnicos del dispositivo y la dirección IP, y puede mostrar anuncios personalizados según tu actividad.</li>
+    </ul>
+
+    <h3>Servicios de terceros</h3>
+    <p>Estos datos los procesa Google como proveedor de los servicios. Puedes consultar sus políticas:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Política de privacidad de Google</a></li>
+      <li><a href="https://firebase.google.com/support/privacy">Privacidad y seguridad en Firebase</a></li>
+      <li><a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google los datos de las apps que usan sus servicios</a></li>
+    </ul>
+    <p>Al abrir una noticia, una radio, un canal de YouTube o el sitio de un medio, ese contenido lo sirve el propio medio o plataforma, con su propia política de privacidad.</p>
+
+    <h3>Lo que no hacemos</h3>
+    <ul>
+      <li>No vendemos tus datos.</li>
+      <li>No recopilamos datos que te identifiquen personalmente.</li>
+      <li>No compartimos datos con terceros, salvo los servicios de Google indicados arriba, que son necesarios para que la app funcione y se financie.</li>
+    </ul>
+
+    <h3>Tus opciones</h3>
+    <ul>
+      <li><strong>Anuncios personalizados:</strong> puedes restablecer o eliminar tu ID de publicidad en Ajustes de Android → Google → Anuncios (o Privacidad → Anuncios).</li>
+      <li><strong>Notificaciones:</strong> puedes desactivarlas en los ajustes de Android de la app.</li>
+      <li><strong>Borrar tus datos:</strong> al desinstalar la app se elimina el identificador de instalación del teléfono. Si además quieres que borremos los datos de uso guardados en Firebase, escríbenos a <a href="mailto:caceresedward@gmail.com">caceresedward@gmail.com</a> y los eliminaremos.</li>
+    </ul>
+
+    <h3>Conservación y seguridad</h3>
+    <p>Los datos de uso se guardan solo mientras sean útiles para mantener y mejorar la app. Se transmiten cifrados (HTTPS) a los servidores de Google.</p>
+
+    <h3>Menores de edad</h3>
+    <p>La app está dirigida a público general y no está pensada para menores de 13 años. No recopilamos a sabiendas datos de menores. Si crees que un menor nos envió datos, escríbenos para eliminarlos.</p>
+
+    <h3>Cambios</h3>
+    <p>Si esta política cambia, publicaremos la nueva versión en esta misma página con la fecha de actualización.</p>
+  </section>
+</main>
+</body>
+</html>
